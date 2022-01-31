@@ -1,0 +1,341 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+body h1{
+    font-family: "Open Sans Condensed","Arial",sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #000;
+}
+body h2{
+    font-family:"Open Sans Condensed","Arial",sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #222;
+}
+body p{
+     font-family:"Open Sans","Arial",sans-serif;
+     font-weight: normal;
+     font-style: 16px;
+     line-height: 1.5;
+     color:#444;
+}
+
+/* header qismi-------------------- */
+.site-header{
+    background-color: #fff;
+    width: 100%;
+    height: 98px;
+    outline: 1px solid red;
+    padding: 24px 0;
+}
+.container{
+     width: 100%;
+     max-width: 1140px;
+     padding: 0 20px;
+     margin-left: auto;
+     margin-right: auto;
+}
+.site-header-container{
+   height: 50px;
+   display: flex;
+   align-items: center;
+}
+.wrap-logo{
+   display: flex;
+   align-items: center;
+   width: 185px;
+   height: 50px;
+}
+.wrap-logo a{
+  text-decoration: none;
+}
+.wrap-logo h1{
+  color: #222;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 33px;
+     font-family: "Open Sans","Arial", sans-serif;
+     transition: color 0.4s ease;
+}
+.wrap-logo h1:hover{
+ color:  #DE2E54;
+}
+.logo-link{
+  display: inline-block;
+  width: 185px;
+  height: 50px;
+  margin-right: 16px;
+}
+.nav-list{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.nav-list-link{
+    text-decoration: none;
+    color:#222222;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-family: "Open Sans","Arial", sans-serif;
+    transition: color 0.4s ease, opacity 0.4s ease;
+}
+.nav-list-link:hover{
+    color: #DE2E54;
+}
+.nav-list-link:active{
+   color: #DE2E54;
+   opacity: 0.6;
+}
+.nav-list-item{
+  margin-right: 32px;
+}
+.nav-list-item:last-child{
+  margin-right: 0;
+}
+nav{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-link{
+  display: inline-block;
+  font-weight: 700;
+  font-style:normal;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  font-family: "Open Sans Condensed","Arial",sans-serif ;
+  text-decoration: none;
+  color:#fff;
+  background-color: #DE2E54;
+  border: 2px solid #DE2E54;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: color 0.4s ease, background-color 0.4s ease;
+}
+.main-link:hover{
+    background-color: #fff;
+    color: #DE2E54;
+}
+.main-link:active{
+    color: #fff;
+    background-color: #DE2E54;
+    opacity: 0.6;
+}
+
+/* hero qismi------------------ */
+
+.hero{
+    height: 533px;
+    background-color: #0EB4C1;
+
+}
+.hero-container{
+   display: flex;
+   height: 100%;
+}
+.hero-content{
+    width: 500px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.hero-content .main-link{
+    transition: opacity 0.4s ease;
+}
+.hero-content .main-link:hover{
+   background-color: #DE2E54;
+   color: #fff;
+   opacity: 0.8;
+}
+.hero-content .main-link:active{
+    opacity: 0.6;
+}
+.hero-heading{
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 36px;
+    font-family: "Open Sans Condensed","Arial",sans-serif;
+    margin: 0;
+    margin-bottom: 16px;
+    color: #fff;
+}
+.hero-text{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+    font-family: "Open Sans","Arial",sans-serif;
+    margin-top: 0;
+    margin-bottom: 46px;
+    color: #fff;
+}
+.hero-img{
+  width: 423px;
+  height: 504px;
+  margin-left: auto;
+  margin-top: auto;
+  display: inline-block;
+}
+
+/* services bo`limi----------------------- */
+.services-container{
+    width: 904px;
+    padding: 120px 20px 120px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services-list{
+   width: 100%;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: inline-block;
+}
+.services-header-title{
+    margin: 0;
+    margin-bottom: 56px;
+    text-align: center;
+}
+.service-item{
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  margin-bottom: 80px;
+}
+.service-item:last-child{
+    margin-bottom: 60px;
+}
+.service-item img{
+   display: block;
+   width: 200px;
+   height: 200px;
+   margin-right: 64px;
+   object-fit: cover;
+   object-position: center;
+}
+.service-item-text h2{
+   margin-top: 25.5px;
+   margin-bottom: 24px;
+}
+.service-item-text p{
+     margin-bottom: 25.5px;
+}
+.services-container .main-link{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 189px;
+    height: 47px;
+}
+
+/* promo bo`limi----------------------  */
+.promo{
+  background-color: #0EB4C1;
+  width: 100%;
+}
+.promo-content{
+   background-color: #0EB4C1;
+   padding: 64px 0;
+}
+.promo-heading{
+  text-align: center;
+  margin: 0;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.promo-link{
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: none;
+    color:#fff;
+    font-family:"Open Sans Condensed","Arial",sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-right: 40px;
+    transition: background-color 0.4s ease, opacity 0.4s ease;
+}
+.promo-link:hover{
+  background-color: #DE2E54;
+}
+.promo-link:active{
+  background-color: #DE2E54;
+  opacity: 0.6;
+}
+.promo-link:last-child{
+  margin-right: 0;
+}
+.promo-buttons{
+   display: flex;
+   justify-content: center;
+}
+
+/* footer------------------------------ */
+.site-footer{
+     width: 100%;
+     height: 98px;
+     background-color: #222;
+     display: flex;
+}
+.dspflex{
+  display: flex;
+  align-items: center;
+}
+.wrap-logo{
+    transition: opacity 0.4s ease;
+}
+.site-footer .wrap-logo h1{
+  color: #fff;
+  transition: color 0.4s ease;
+}
+.wrap-logo:hover h1{
+  color: #DE2E54;
+}
+.wrap-logo:active h1{
+   opacity: 0.6;
+   color:#fff;
+}
+.wrap-logo:active{
+  opacity: 0.6;
+}
+/* .site-footer .wrap-logo h1{
+  color: #fff;
+  transition: color 0.4s ease;
+} */
+/* .site-footer .wrap-logo h1:hover{
+   color: #DE2E54;
+} */
+.site-footer .nav-list a{
+  color: #fff;
+  transition: color 0.4s ease, opacity 0.4s ease;
+}
+.site-footer .nav-list a:hover{
+    color:  #DE2E54
+}
+.site-footer .nav-list a:active{
+  color: #fff;
+  opacity: 0.6;
+}
+.dspflex nav{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
